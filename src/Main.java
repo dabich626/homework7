@@ -4,10 +4,26 @@ public class Main {
         task2();
         task3();
         task4();
-        task6();
+        task7();
+        task8();
     }
 
-    private static void task6() {
+    private static void task8() {
+        int cometYear = 1823;
+        int yearAfter = 2123;
+       while (cometYear < yearAfter) {
+           cometYear = cometYear + 79;
+           System.out.println("комета пролетит в  " + cometYear);
+
+       }
+    }
+
+    private static void task7() {
+        int friday = -2;
+        while(friday<26) {
+            friday = friday + 7;
+            System.out.println("сегодня " + friday + " число, пятница. нужно сделать отчет");
+        }
 
     }
 
@@ -21,7 +37,7 @@ public class Main {
         int totalSaved = 0;
         while(totalSaved < 12000000) {
             totalSaved = totalSaved + bankBonuse;
-            mounth = mounth + 1;
+            mounth = mounth + 6;
             System.out.println("сумма накоплений за " + mounth + " месяц составляет " + totalSaved);
         }
         System.out.println("=================================================");
